@@ -50,7 +50,6 @@ h1 {
 .flexChapter {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 1;
     max-width: 62rem;
     margin: auto;
 }
@@ -58,7 +57,6 @@ h1 {
 .singleFlex {
     display: flex;
     flex-direction: row-reverse;
-    flex-basis: 1;
     max-width: 62rem;
     margin: auto;
 }
@@ -73,8 +71,13 @@ img {
     max-width: 40%;
     height: auto;
     margin: 0 auto auto auto;
-    
-    
+    box-shadow: 2px 2px 5px rgb(139, 139, 139);
+    border-radius: 5%;
+}
+
+hr {
+    max-width: 62rem;
+    box-shadow: 2px 2px 5px rgb(139, 139, 139);
 }
 
 dt {
