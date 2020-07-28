@@ -91,6 +91,11 @@ h1 {
     text-align: center;
 }
 
+summary {
+    font-size: larger;
+    font-weight: bolder;
+}
+
 footer {
     background-color: rgb(83, 83, 68);
     display: block;
