@@ -99,6 +99,11 @@ summary {
     font-weight: bolder;
 }
 
+a {
+    color: black;
+    font-weight: bold;
+}
+
 footer {
     background-color: rgb(83, 83, 68);
     display: block;
